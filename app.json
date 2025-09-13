@@ -4,12 +4,19 @@
     "slug": "Emergency",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/back.png",
     "scheme": "emergency",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to show your current position on the map.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to your location to show your current position on the map."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCm_jC3d7tmRDskhymD3Td3uavUNTvlEAs"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +26,14 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.saikaranam_123.Emergency",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCm_jC3d7tmRDskhymD3Td3uavUNTvlEAs"
+        }
+      }
     },
     "web": {
       "output": "static",
@@ -30,7 +44,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/back.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -43,6 +57,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0da134a8-85a8-4ccd-a1a5-b40b2821bf5d"
+      }
     }
   }
 }
