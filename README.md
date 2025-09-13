@@ -1,6 +1,6 @@
 # Welcome to your Expo app 👋
 
-# MyApp – React Native Expo Project
+# Emergency Contact App - VEDA2K25 Hackathon
 
 ## 📱 Overview
 MyApp is a cross-platform mobile application built with **React Native + Expo**.  
