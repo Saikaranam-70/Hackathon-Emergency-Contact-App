@@ -1,5 +1,28 @@
 # Welcome to your Expo app 👋
 
+# MyApp – React Native Expo Project
+
+## 📱 Overview
+MyApp is a cross-platform mobile application built with **React Native + Expo**.  
+It provides **authentication, maps, chat, and more** with a modern UI.
+
+## 🚀 Features
+- 🔐 **User Authentication** (SignUp, SignIn, Secure Session with AsyncStorage)
+- 🗺️ **Maps Integration** (Expo Location + React Native Maps)
+- 💬 **Chat Module** (real-time messaging via Node.js backend)
+- 📷 **Image Upload** (Expo Image Picker + Cloud storage)
+- 🎨 **Custom UI/UX** (Gradient backgrounds, consistent Auth screens)
+
+## 🛠️ Tech Stack
+- **Frontend:** React Native (Expo), React Navigation
+- **Backend:** Node.js + Express + MongoDB (for chat & auth)
+- **Other:** AsyncStorage, Expo Location, React Native Maps
+
+## 📂 Folder Structure
+
+
+
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
